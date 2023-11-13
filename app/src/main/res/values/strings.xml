@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SimpsonAPP</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="personajes">Personajes</string>
+    <string name="quieneres">Quien Eres?</string>
+    <string name="seHomero">Se Homero</string>
+
+
+    <string name="AbbeySimpson">Es la media hermana inglesa de Homero!</string>
+    <string name="CapitanMordecai">El Capitán Mordecai Barrows es un ballenero borracho e indiferente que vive en Nantucket con sus dos hijos y su esposa Temperance Barrows.</string>
+    <string name="CosmeFulanito">Es un hombre idéntico a Homero, pero con bigote, que viste de traje y sombrero de copa e incluso tiene una voz parecida.</string>
+    <string name="DonBarredora">Homero se Transforma en Don Barredora cuando la ciudad está llena de nieve. "Me llama usted, entonces voy, don barredora es quien yo soy"</string>
+    <string name="FatovHomero">Es una mascota imaginaria de los Juegos Olímpicos de Invierno de 2014 en Sochi, Rusia. Bart crea un pin de este personaje recortando la parte inferior de la cara de Homer de su licencia de conducir, dándole la vuelta y agregando ojos en la barbilla.</string>
+    <string name="HombrePie">Homero se transforma en el superHeroe cuando se burlan de Lisa. "Ninguna trampa parará a Homero Simpson. Pero yo no soy Homero Simpson, soy el Hombre Pie"</string>
+    <string name="ConductorMonoriel">Homero es Conductor del Monoriel de Springfield, luego de pasar "Dudosas" Pruebas, aún así logra frenar el tren!</string>
+    <string name="HomeroFuerte">Es el personaje de la casita del horror, donde interpetra a un fenomeno de circo, que quiere envenenar en la boda a Moe.</string>
+    <string name="HomeroGordo">Homero decide convertirse en obeso, para incapacitarse y poder trabajar desde casa. Luego, evita una catastrofe en Springfield!</string>
+    <string name="HomeroMago">Banda Gris es el personaje Mago de la saga Angelica Button. Si bien muere en la saga, Homero decide cambiar el final para que Lisa no esté triste por ello.</string>
+    <string name="HomeroMaya">Homero es un Maya en la casita del árbol del terror XXIII. Sacrifican a Moe para que el pueda salvarse.</string>
+    <string name="HomeroNoir">Es el Homero de la parodia de Spider-Man Negro. Pudo dispararle a Flanders!</string>
+    <string name="HomeroPreparatoria">Es Homero en la preparatoria, en su etapa de joven!</string>
+    <string name="KnokaHomero">KnokaHomero es el Homero-Robot-Hombre que le prepara a Bart, para poder pelear en las disputas de los robots. Una gran muestra de amor de nuestro personaje papá favorito con su hijo!</string>
+    <string name="HomeroSimpson">Nuestro personaje Favorito. Un buen padre, un buen marido, un gran "Trabajador", y sobre todo, un gran tomador de cerveza. Mmmmmmm... Cerveza</string>
+    <string name="HomeroMrChispa">Los Simpson creen que homero aparece en una caja de cereales japonesa, pero en realidad era una combinación de dos marcas. QUE ABURRIDO, QUE NO HAY DRAGOON BALL Z!</string>
+    <string name="Descripcion">Busca Aqui tu Personaje Favorito!</string>
+
+
+</resources>
