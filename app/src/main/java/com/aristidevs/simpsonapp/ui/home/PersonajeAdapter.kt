@@ -35,11 +35,11 @@ class PersonajeAdapter {
             private val binding = ItemPersonajeBinding.bind(itemView)
 
             fun bind(personaje: detallePersonajes) {
-                binding.tvInfo.text = personaje.nombre
-                binding.tvInfo.text = personaje.historia
-                binding.tvInfo.text = personaje.estado
-                binding.tvInfo.text = personaje.genero
-                binding.tvInfo.text = personaje.ocupacion
+                binding.tvNombre.text = personaje.nombre
+                binding.tvHistoria.text = personaje.historia
+                binding.tvEstado.text = personaje.estado
+                binding.tvGenero.text = personaje.genero
+                binding.tvOcupacion.text = personaje.ocupacion
                 Picasso.get().load(personaje.imagen).into(binding.ivImagen)
             }
         }
