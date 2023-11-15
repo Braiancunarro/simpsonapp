@@ -7,7 +7,7 @@
 
     <ImageView
         android:id="@+id/ivImagen"
-        tools:background="@color/fondo"
+        tools:background="@color/black"
         android:layout_margin="10dp"
         android:layout_width="0dp"
         android:layout_height="0dp"

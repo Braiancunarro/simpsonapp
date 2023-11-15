@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -19,12 +20,12 @@ class HomeFragment : Fragment() {
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
 
-    private lateinit var retrofit: Retrofit
+   // private lateinit var retrofit: Retrofit
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        retrofit = getretrofit
+        //retrofit = getretrofit
     }
 
 
@@ -38,15 +39,26 @@ override fun onCreateView(
 
     _binding = FragmentHomeBinding.inflate(inflater, container, false)
     val root: View = binding.root
+
+    binding.searchview.setOnQueryTextListener(object: SearchView.OnQueryTextListener{
+        override fun onQueryTextSubmit(query: String?): Boolean {
+            return false
+        }
+
+        override fun onQueryTextChange(newText: String?): Boolean {
+            Toast.makeText(requireContext(), newText, Toast.LENGTH_SHORT).show()
+               return true
+        }
+    })
     return root
 }
 
-val getretrofit = Retrofit.Builder()
-    .baseUrl("https://apisimpsons.fly.dev/")
-    .addConverterFactory(GsonConverterFactory.create())
-    .build()
-
-val simpsonApiService = retrofit.create(SimpsonApiService::class.java)
+//val getretrofit = Retrofit.Builder()
+// .baseUrl("https://apisimpsons.fly.dev/")
+//    .addConverterFactory(GsonConverterFactory.create())
+//    .build()
+//
+//val simpsonApiService = retrofit.create(SimpsonApiService::class.java)
 
 override fun onDestroyView() {
     super.onDestroyView()
